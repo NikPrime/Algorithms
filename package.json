@@ -6,7 +6,8 @@
   "scripts": {
     "test:all": "jest",
     "start": "tsc && node dist/main.js",
-    "stack": "jest -- tests/dataStructures.test.ts && tsc && node dist/Stack.js"
+    "stack": "jest -- tests/stackStructure.test.ts && tsc && node dist/DataStructures/StackStructure.js",
+    "queue": "jest -- tests/queueStructure.test.ts && tsc && node dist/DataStructures/QueueStructure.js"
   },
   "repository": {
     "type": "git",
